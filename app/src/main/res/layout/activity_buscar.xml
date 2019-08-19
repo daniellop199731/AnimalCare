@@ -6,4 +6,33 @@
     android:layout_height="match_parent"
     tools:context=".Vistas.Buscar">
 
+    <TextView
+        android:id="@+id/txtBusqueda"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ingrese el código del animal que desea buscar." />
+
+    <EditText
+        android:id="@+id/txtBuscar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Código"
+        android:layout_below="@+id/txtBusqueda"/>
+
+    <TextView
+        android:id="@+id/txtResultado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" "
+        android:layout_below="@+id/txtBuscar"/>
+
+    <Button
+        android:id="@+id/btnBuscar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Buscar"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/txtResultado"/>
 </RelativeLayout>
