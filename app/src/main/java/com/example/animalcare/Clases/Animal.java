@@ -4,67 +4,67 @@ import java.util.Date;
 
 public class Animal {
 
-    public String Nombre;
-    private String Codigo;
-    private String Tipo;
-    private String Raza;
-    private String Sexo;
-    private Date Fecha_Nacimiento;
+    public String nombre;
+    private String codigo;
+    private String tipo;
+    private String raza;
+    private String sexo;
+    private Date fecha_nacimiento;
 
-    public Animal(String nombre, String codigo, String tipo, String raza, String sexo, Date fecha_Nacimiento) {
-        Nombre = nombre;
-        Codigo = codigo;
-        Tipo = tipo;
-        Raza = raza;
-        Sexo = sexo;
-        Fecha_Nacimiento = fecha_Nacimiento;
+    public Animal(String nombre, String codigo, String tipo, String raza, String sexo, Date fecha_nacimiento) {
+        this.nombre = nombre;
+        this.codigo = codigo;
+        this.tipo = tipo;
+        this.raza = raza;
+        this.sexo = sexo;
+        this.fecha_nacimiento = fecha_nacimiento;
     }
 
     public String getNombre() {
-        return Nombre;
+        return nombre;
     }
 
     public void setNombre(String nombre) {
-        Nombre = nombre;
+        this.nombre = nombre;
     }
 
     public String getCodigo() {
-        return Codigo;
+        return codigo;
     }
 
     public void setCodigo(String codigo) {
-        Codigo = codigo;
+        this.codigo = codigo;
     }
 
     public String getTipo() {
-        return Tipo;
+        return tipo;
     }
 
     public void setTipo(String tipo) {
-        Tipo = tipo;
+        this.tipo = tipo;
     }
 
     public String getRaza() {
-        return Raza;
+        return raza;
     }
 
     public void setRaza(String raza) {
-        Raza = raza;
+        this.raza = raza;
     }
 
     public String getSexo() {
-        return Sexo;
+        return sexo;
     }
 
     public void setSexo(String sexo) {
-        Sexo = sexo;
+        this.sexo = sexo;
     }
 
-    public Date getFecha_Nacimiento() {
-        return Fecha_Nacimiento;
+    public Date getFecha_nacimiento() {
+        return fecha_nacimiento;
     }
 
-    public void setFecha_Nacimiento(Date fecha_Nacimiento) {
-        Fecha_Nacimiento = fecha_Nacimiento;
+    public void setFecha_nacimiento(Date fecha_nacimiento) {
+        this.fecha_nacimiento = fecha_nacimiento;
     }
 }

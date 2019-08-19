@@ -4,48 +4,48 @@ import java.util.Date;
 
 public class Usuario {
 
-    String nombre = "fer";
-    public String Nombre;
-    private String Correo;
-    private String Contraseña;
-    private String Rol;
+
+    public String nombre;
+    private String correo;
+    private String contraseña;
+    private String rol;
 
     public Usuario(String nombre, String correo, String contraseña, String rol) {
-        Nombre = nombre;
-        Correo = correo;
-        Contraseña = contraseña;
-        Rol = rol;
+        this.nombre = nombre;
+        this.correo = correo;
+        this.contraseña = contraseña;
+        this.rol = rol;
     }
 
     public String getNombre() {
-        return Nombre;
+        return nombre;
     }
 
     public void setNombre(String nombre) {
-        Nombre = nombre;
+        this.nombre = nombre;
     }
 
     public String getCorreo() {
-        return Correo;
+        return correo;
     }
 
     public void setCorreo(String correo) {
-        Correo = correo;
+        this.correo = correo;
     }
 
     public String getContraseña() {
-        return Contraseña;
+        return contraseña;
     }
 
     public void setContraseña(String contraseña) {
-        Contraseña = contraseña;
+        this.contraseña = contraseña;
     }
 
     public String getRol() {
-        return Rol;
+        return rol;
     }
 
     public void setRol(String rol) {
-        Rol = rol;
+        this.rol = rol;
     }
 }

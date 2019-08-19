@@ -2,27 +2,27 @@ package com.example.animalcare.Clases;
 
 public class Derivado_Animal {
 
-    public String Nombre;
-    private String Tipo;
+    public String nombre;
+    private String tipo;
 
     public Derivado_Animal(String nombre, String tipo) {
-        Nombre = nombre;
-        Tipo = tipo;
+        this.nombre = nombre;
+        this.tipo = tipo;
     }
 
     public String getNombre() {
-        return Nombre;
+        return nombre;
     }
 
     public void setNombre(String nombre) {
-        Nombre = nombre;
+        this.nombre = nombre;
     }
 
     public String getTipo() {
-        return Tipo;
+        return tipo;
     }
 
     public void setTipo(String tipo) {
-        Tipo = tipo;
+        this.tipo = tipo;
     }
 }
