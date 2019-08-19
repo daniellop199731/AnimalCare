@@ -4,7 +4,7 @@ import java.util.Date;
 
 public class Usuario {
 
-
+    String nombre = "fer";
     public String Nombre;
     private String Correo;
     private String Contraseña;
