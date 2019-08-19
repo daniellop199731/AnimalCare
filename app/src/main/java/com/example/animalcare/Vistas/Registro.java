@@ -14,6 +14,7 @@ import android.widget.TextView;
 import com.example.animalcare.R;
 
 public class Registro extends AppCompatActivity {
+    TextView txtInicio;
     EditText txtNombre;
     EditText txtCodigo;
     EditText txtTipo;
@@ -32,6 +33,7 @@ public class Registro extends AppCompatActivity {
 
 
     public void inicializar(){
+        txtInicio = (TextView) findViewById(R.id.txtInicio);
         txtNombre = (EditText) findViewById(R.id.txtNombre);
         txtCodigo = (EditText) findViewById(R.id.txtCodigo);
         txtTipo = (EditText) findViewById(R.id.txtTipo);
